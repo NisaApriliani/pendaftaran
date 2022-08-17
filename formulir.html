@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <div id="myModal" class="penghalang">
+        <div class="modal-content" id="modal-content">
+            <p>
+
+            </p>
+            
+        </div>
+        
+    </div>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=""><img src="https://kerjanesia.id/wp-content/uploads/2021/09/Telkom.png" width="20%" height="100%"></a></div>
+     </nav>
+    <div class="wrap" >
+            <table width="750">
+                    <h3 style="background-color: grey" align="center">Form Pendaftaran </h3>
+                    <tr>
+                        <td>No Pendaftaran</td>
+                        <td><input type="text" name="" id="no_pendaftaran" value="" placeholder="*" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" name="" id="email" value="" placeholder="*" required></td>
+                    </tr>
+                    <tr>
+                        <td>Nama</td>
+                        <td><input type="text" name="" id="nama" value="" placeholder="*" required></td>
+                    </tr>
+                    <tr>
+                        <td>Tempat, tanggal lahir</td>
+                        <td><input type="text" name="" id="tempat_lahir" value="" placeholder="*" required>
+                            <input type="date" name="" id="tanggal_lahir" value="" placeholder="*" required></td>
+                    </tr>
+                    <tr>
+                        <td>Alamat</td>
+                        <td><textarea name="" id="alamat"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>No.Tlp</td>
+                        <td><input type="tel" id="no_telp" name="" value="" placeholder="*" required></td>
+                    </tr>
+                    <tr>
+                        <td>Agama</td>
+                        <td><select name="" id="agama">
+                            <option>Islam</option>
+                            <option>Kristen</option>
+                            <option>Katolik</option>
+                            <option>Hindu</option>
+                            <option>Budha</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td><input type="radio" name="" id="jk">Laki-Laki</td>
+                        <td><input type="radio" name="" id="jk">Perempuan</td>
+                    </tr>
+                    <tr>
+                        <td>Status</td>
+                        <td><select name="" id="status">
+                            <option>Menikah</option>
+                            <option>Belum Menikah</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Kewarganegaraan</td>
+                        <td><select name="" id="kewarganegaraan">
+                            <option></option>
+                            <option>WNI</option>
+                            <option>WNA</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Upload CV: <input type="file" name="CV" max="500kb"></td>
+                    </tr>
+            </table>
+
+<br>
+
+    <div class="wrap" >
+        <table width="750">
+                <h3 style="background-color: grey" align="center">informasi pendidikan</h3>
+                <tr>
+                    <td>Asal Universitas</td>
+                    <td><input type="text" name="asal" id="asal_universitas" value="" placeholder="*" required></Inp></td>
+                </tr>
+                <tr>
+                    <td>Tahun Lulus</td>
+                    <td><input type="number" name="tahun" id="tahun_lulus" value="" placeholder="*" required>
+                </tr>
+                <tr>
+                    <td>Bidang Pekerjaan</td>
+                    <td><select name="pekerjaan" id="bidang_pekerjaan">
+                        <option value="frontEnd">Front End</option>
+                        <option value="backEnd">Backend</option>
+                        <option value="softwareArchitect">Software Architect</option>
+                        <option value="QualityAssurance">Quality Assurance</option>
+                        <option value="documentEngineer">Document Engineer</option>
+                        <option value="Android">Android Developer</option>
+                        <option value="">IOS Developer</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Berapa Lama Bekerja</td>
+                    <td><input type="text" name="lama_kerja" id="lama_kerja" value="" placeholder="*" required></Inp></td>
+                </tr>               
+        </table>
+        <br>
+    <button type="submit" id="tombolku" onclick="modals()">Submit</button>
+    <button type="reset">Reset</button>
+    <button><a href="Home.html">Home</a></button>
+    
+    <script src="scriptku.js"></script>
+</body>
+</html>

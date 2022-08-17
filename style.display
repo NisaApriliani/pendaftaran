@@ -1,0 +1,17 @@
+<HTML>
+<HEAD>
+    <title>Belajar Javascript</title>
+</HEAD>
+<link rel="stylesheet" href="styleku.css">
+<BODY>
+    <button id="tombolku">Open Modal</button>
+    <div id="myModal" class="penghalang">
+        <div class="modal-content">
+            <span id="tutup">&times;</span>
+            <p>ini adalah Modal..</p>
+        </div>
+    </div>
+    <Script src="scriptku.js"></Script>
+</BODY> 
+</HTML>  
+Copy
